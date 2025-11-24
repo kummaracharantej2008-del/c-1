@@ -1,0 +1,21 @@
+// write a program to print or find the average and sum of a number
+#include<stdio.h>
+#include<conio.h>
+int main(){
+int a,b,c,sum;
+float d;
+printf("enter three values:");
+scanf("%d%d%d",&a,&b,&c);
+sum=a+b+c;
+d=(a+b+c)/3;
+printf("\n value:%d",sum);
+printf("\n average is:%d",d);
+return 0;
+}
+
+output:-
+enter three values:10 20 30
+
+ value:60
+ average is:4202537
+ 
